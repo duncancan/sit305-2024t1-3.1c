@@ -46,7 +46,6 @@ public class MainActivity extends AppCompatActivity {
         // Set up our screen elements
         et_userName = findViewById(R.id.et_userName);
         btn_start = findViewById(R.id.btn_start);
-//        tv_Test = findViewById(R.id.tv_Test);
 
         // Set up HTTP logging for debugging purposes
         HttpLoggingInterceptor interceptor = new HttpLoggingInterceptor();
@@ -58,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 .connectTimeout(60, TimeUnit.SECONDS)
                 .build();
 
-        // Set up our web connection to our quiz endpoing
+        // Set up our web connection to our quiz endpoint
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("http://10.0.2.2:5000/")
                 .addConverterFactory(GsonConverterFactory.create())
@@ -91,8 +90,6 @@ public class MainActivity extends AppCompatActivity {
                             intent.putExtra("score", STARTING_SCORE);
                             intent.putExtra("userName", userName);
                             startActivity(intent);
-//                            Question question1 = quiz.getQuiz().get(0);
-
                         }
                     }
 
@@ -104,10 +101,6 @@ public class MainActivity extends AppCompatActivity {
                 });
             }
         });
-
-
-
-
     }
 }
 
