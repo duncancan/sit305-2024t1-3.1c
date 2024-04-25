@@ -82,7 +82,7 @@ public class QuestionActivity extends AppCompatActivity {
         Question question = quiz.getQuiz().get(questionNumber);
 
         // Display the question
-        tv_question.setText(question.getQuestion() + progressPerc);
+        tv_question.setText(question.getQuestion());
 
         // Populate the buttons with the answers
         btn_A.setText(question.getOptions().get(0));

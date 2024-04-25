@@ -7,6 +7,5 @@ import retrofit2.http.Path;
 
 public interface LlamaQuiz {
     @GET("getQuiz?topic=cats")
-//    Call<Quiz> getQuiz(@Path("topic") String topic);
     Call<Quiz> getQuiz();
 }
