@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">6.1C Quiz App</string>
+    <string name="AppTitle">SIT305 Quiz App</string>
+    <string name="EnterYourName">Enter your name</string>
+    <string name="Start">Start</string>
+    <string name="Submit">Submit</string>
+    <string name="Next">Next</string>
+    <string name="YourScore">YOUR SCORE:</string>
+    <string name="Finish">Finish</string>
+</resources>

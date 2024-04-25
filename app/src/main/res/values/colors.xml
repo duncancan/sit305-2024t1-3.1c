@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--    Colours taken from https://github.com/wtsang02/colors/blob/master/color.xml-->
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="holo_green_dark">#ff669900</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_orange_dark">#ffff8800</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_purple">#ffaa66cc</color>
+    <color name="holo_red_dark">#ffcc0000</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <!-- Generic Light -->
+    <color name="LightGrey">#D3D3D3</color>
+    <color name="LightSteelBlue">#B0C4DE</color>
+    <color name="LightBlue">#ADD8E6</color>
+    <color name="LightPink">#FFB6C1</color>
+    <color name="LightSalmon">#FFA07A</color>
+    <color name="LightCyan">#E0FFFF</color>
+    <color name="LightCoral">#F08080</color>
+    <color name="LightSkyBlue">#87CEFA</color>
+    <color name="LightSeaGreen">#20B2AA</color>
+    <color name="LightSlateGray">#778899</color>
+    <color name="LightGreen">#90EE90</color>
+    <color name="LightYellow">#FFFFE0</color>
+    <color name="LightGoldenrodYellow">#FAFAD2</color>
+    <!-- Generic Dark -->
+    <color name="DarkTurquoise">#00CED1</color>
+    <color name="DarkCyan">#008B8B</color>
+    <color name="DarkGreen">#006400</color>
+    <color name="DarkSalmon">#E9967A</color>
+    <color name="DarkBlue">#00008B</color>
+    <color name="DarkOrange">#FF8C00</color>
+    <color name="DarkOrchid">#9932CC</color>
+    <color name="DarkViolet">#9400D3</color>
+    <color name="DarkMagenta">#8B008B</color>
+    <color name="DarkRed">#8B0000</color>
+    <color name="DarkOliveGreen">#556B2F</color>
+    <color name="DarkSlateGray">#2F4F4F</color>
+    <color name="DarkSlateBlue">#483D8B</color>
+    <color name="DarkSeaGreen">#8FBC8F</color>
+    <color name="DarkGray">#A9A9A9</color>
+    <color name="DarkGoldenrod">#B8860B</color>
+    <color name="DarkKhaki">#BDB76B</color>
+</resources>
